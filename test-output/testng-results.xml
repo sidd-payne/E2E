@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25632" started-at="2021-03-01T09:35:03 IST" finished-at="2021-03-01T09:35:29 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25632" started-at="2021-03-01T09:35:03 IST" finished-at="2021-03-01T09:35:29 IST">
+      <class name="TestClasses.LoginTest">
+        <test-method status="PASS" signature="testlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClasses.LoginTest@cb51256]" name="testlogin" duration-ms="14676" started-at="2021-03-01T09:35:03 IST" data-provider="getData" finished-at="2021-03-01T09:35:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[siddi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[siddi@fp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non res]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:TestClasses.LoginTest@cb51256]" name="terminate" is-config="true" duration-ms="254" started-at="2021-03-01T09:35:18 IST" finished-at="2021-03-01T09:35:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="testlogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestClasses.LoginTest@cb51256]" name="testlogin" duration-ms="10479" started-at="2021-03-01T09:35:18 IST" data-provider="getData" finished-at="2021-03-01T09:35:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[resss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:TestClasses.LoginTest@cb51256]" name="terminate" is-config="true" duration-ms="163" started-at="2021-03-01T09:35:29 IST" finished-at="2021-03-01T09:35:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- TestClasses.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
